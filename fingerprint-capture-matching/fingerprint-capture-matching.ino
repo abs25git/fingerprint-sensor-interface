@@ -160,6 +160,7 @@ int getFingerprintIDez() {
   // This is code is a simple alternative and return -1 if unsuccess
 //This is optional
 
+//This is to simplify
   Serial.print("Found ID #"); Serial.print(finger.fingerID);
   Serial.print(" with confidence of "); Serial.println(finger.confidence);
   return finger.fingerID;
