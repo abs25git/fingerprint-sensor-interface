@@ -159,6 +159,7 @@ int getFingerprintIDez() {
   // found a match!
   // This is code is a simple alternative and return -1 if unsuccess
 //This is optional
+
   Serial.print("Found ID #"); Serial.print(finger.fingerID);
   Serial.print(" with confidence of "); Serial.println(finger.confidence);
   return finger.fingerID;
