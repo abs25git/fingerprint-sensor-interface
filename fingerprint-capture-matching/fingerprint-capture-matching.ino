@@ -14,7 +14,7 @@
   BSD license, all text above must be included in any redistribution
  ****************************************************/
 
-
+// This file has program that first capture the fingerprint and then compare with database for match
 #include <Adafruit_Fingerprint.h>
 
 
